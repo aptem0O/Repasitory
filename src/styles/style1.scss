@@ -1,4 +1,7 @@
-.big_txt {
+.big_txt-services,
+.big_txt-portfolio,
+.big_txt-about,
+.big_txt-contact {
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -6,3 +9,12 @@
     text-align: center;
     font-size: 141px;
   }
+@media (max-width:599px) {
+    .big_txt-services,
+    .big_txt-portfolio,
+    .big_txt-about,
+    .big_txt-contact{
+        font-size: 80px;
+
+}
+}

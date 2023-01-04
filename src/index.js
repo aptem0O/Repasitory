@@ -1,4 +1,4 @@
-// import "./styles/normalize.css";
+import "./styles/normalize.css";
 import "./styles/style.scss";
 import "./styles/style1.scss";
 
