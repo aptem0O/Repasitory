@@ -1,6 +1,6 @@
 
 .divservis-mini-txt { 
-  &__big-txt-services{   
+  &__big-txt{
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -8,45 +8,21 @@
     text-align: center;
     font-size: 141px;
   }
-  &__big-txt-portfolio{   
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  color:#f6f6f6;
-  text-align: center;
-  font-size: 141px;
-}
-  &__big-txt-about{    
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  color:#f6f6f6;
-  text-align: center;
-  font-size: 141px;
-}
-  &__big-txt-contact{   
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  color:#f6f6f6;
-  text-align: center;
-  font-size: 141px;
-}
 }
 
 
 
 @media (max-width:599px) {
-    .big-txt-services{
+    .big-txt{
       font-size: 80px;
 }
-    .big-txt-portfolio{
+    .big-txt{
       font-size: 80px;
 }
-    .big-txt-about{
+    .big-txt{
       font-size: 80px;
 }
-    .big-txt-contact{
+    .big-txt{
         font-size: 80px;
   }
 }
