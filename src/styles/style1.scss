@@ -24,28 +24,29 @@
   text-align: center;
   font-size: 141px;
 }
-&__big-txt-contact{   
+  &__big-txt-contact{   
   margin-top: 50px;
   display: flex;
   justify-content: center;
   color:#f6f6f6;
   text-align: center;
   font-size: 141px;
-}}
+}
+}
 
 
 
 @media (max-width:599px) {
-    .big__txt__services{
+    .big-txt-services{
       font-size: 80px;
 }
-    .big__txt__portfolio{
+    .big-txt-portfolio{
       font-size: 80px;
 }
-    .big__txt__about{
+    .big-txt-about{
       font-size: 80px;
 }
-    .big__txt__contact{
+    .big-txt-contact{
         font-size: 80px;
   }
 }
