@@ -1,0 +1,19 @@
+.divservis-mini-txt__big-txt {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #eceded;
+  text-align: center;
+  font-size: 141px;
+}
+
+@media (max-width: 599px) {
+  .divservis-mini-txt__big-txt {
+    font-size: 50px;
+  }
+}
+/*# sourceMappingURL=style1.css.map */
