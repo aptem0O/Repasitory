@@ -20,11 +20,14 @@ body {
   max-width: 1100px; }
 
 .img2 {
-  margin-left: 50px; }
-
-.img2 {
+  margin-left: 50px; 
+  display: flex;
+  align-items: center;
   border-style: none;
-  float: right; }
+  float: right;
+  position: relative;
+  
+    }
 
 .geanStick {
   display: flex; }
@@ -244,12 +247,6 @@ label {
   height: 435px;
   background-color: #2c4755;
   margin-left: -60px; }
-
-.img2 {
-  position: relative;
-  display: flex;
-  align-items: center; }
-
 .block3 i {
   color: #10cab7; }
 
